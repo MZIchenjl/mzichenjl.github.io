@@ -1,1 +1,28 @@
-#tags-title{font-size:1.5em;text-align:center}#tags .tags{position:relative;word-wrap:break-word}#tags .tags .tag-link{display:inline-block;color:#666;text-decoration:none;margin-right:10px;margin-bottom:10px;padding:5px 20px;border:1px dashed transparent;transition:all .1s ease;-webkit-transition:all .1s ease}#tags .tags .tag-link:hover{color:#333;background-color:#eee}#tags .tags .tag-link:active{color:#333;background-color:transparent;border-color:#333}
+#tags-title {
+  font-size: 1.5em;
+  text-align: center;
+}
+#tags .tags {
+  position: relative;
+  word-wrap: break-word;
+}
+#tags .tags .tag-link {
+  display: inline-block;
+  color: #666666;
+  text-decoration: none;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 5px 20px;
+  border: 1px dashed transparent;
+  transition: all 100ms ease;
+  -webkit-transition: all 100ms ease;
+}
+#tags .tags .tag-link:hover {
+  color: #333;
+  background-color: #eee;
+}
+#tags .tags .tag-link:active {
+  color: #333;
+  background-color: transparent;
+  border-color: #333;
+}

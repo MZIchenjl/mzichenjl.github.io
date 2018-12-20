@@ -1,1 +1,45 @@
-#page-nav{list-style:none;padding:0;font-size:80%;margin:2em 0}#page-nav a,#page-nav span{display:inline-block;margin-right:5px;background-color:#ddd;padding:.5em .8em;border-radius:2px;zoom:1;line-height:normal;white-space:nowrap;vertical-align:baseline;text-align:center;-webkit-user-drag:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}#page-nav a{cursor:pointer;color:#333;text-decoration:none;transition:all .1s ease;-webkit-transition:all .1s ease;border:1px dashed transparent}#page-nav a:hover{color:#666;background-color:#eee}#page-nav a:active{color:#333;background-color:transparent;border-color:#333}#page-nav .current{background-color:#f7f7f7;cursor:not-allowed}
+#page-nav {
+  list-style: none;
+  padding: 0;
+  font-size: 80%;
+  margin: 2em 0;
+}
+#page-nav a,
+#page-nav span {
+  display: inline-block;
+  margin-right: 5px;
+  background-color: #dddddd;
+  padding: 0.5em 0.8em;
+  border-radius: 2px;
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: baseline;
+  text-align: center;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+#page-nav a {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  transition: all 100ms ease;
+  -webkit-transition: all 100ms ease;
+  border: 1px dashed transparent;
+}
+#page-nav a:hover {
+  color: #666666;
+  background-color: #eee;
+}
+#page-nav a:active {
+  color: #333;
+  background-color: transparent;
+  border-color: #333;
+}
+#page-nav .current {
+  background-color: #f7f7f7;
+  cursor: not-allowed;
+}
