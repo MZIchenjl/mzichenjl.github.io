@@ -225,8 +225,8 @@
   transition: box-shadow 200ms ease-in-out, border-color 200ms ease-in-out;
 }
 .post-content img:hover {
-  box-shadow: #ccc 0 0 8px 2px;
-  border-color: #999;
+  box-shadow: #efefef 0 0 10px 3px;
+  border-color: #ddd;
 }
 .post-content iframe {
   border: none;
