@@ -221,6 +221,7 @@
   border: 1px solid #eceff2;
 }
 .post-content img {
+  margin: 30px auto;
   cursor: pointer;
   transition: box-shadow 200ms ease-in-out, border-color 200ms ease-in-out;
 }
