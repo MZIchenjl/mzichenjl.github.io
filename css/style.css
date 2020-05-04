@@ -340,7 +340,7 @@ h6 {
 }
 #main {
   margin: 0 auto;
-  max-width: 40em;
+  max-width: 50em;
   min-height: 40vh;
   padding: 0 1em;
   box-sizing: border-box;
@@ -764,26 +764,8 @@ pre .javascript .function {
 .post-content #toc a {
   border: none;
 }
-.post-content #toc .toc {
-  -webkit-transform-origin: top;
-  transform-origin: top;
-  -webkit-transform: scaleY(1);
-  transform: scaleY(1);
-  opacity: 1;
-  transition: height 200ms ease-in-out, opacity 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
-  transition: height 200ms ease-in-out, transform 200ms ease-in-out, opacity 200ms ease-in-out;
-  transition: height 200ms ease-in-out, transform 200ms ease-in-out, opacity 200ms ease-in-out, -webkit-transform 200ms ease-in-out;
-}
-.post-content #toc .toc.shrink {
-  opacity: 0;
-  -webkit-transform: scaleY(0);
-  transform: scaleY(0);
-}
 .post-content #toc .toc-toggle {
   cursor: pointer;
-}
-.post-content #toc .toc-title {
-  margin-bottom: 0.5em;
 }
 .post-content #toc .toc-caret {
   width: 0;
@@ -825,11 +807,6 @@ pre .javascript .function {
 .post-content img {
   margin: 30px auto;
   cursor: pointer;
-  transition: box-shadow 200ms ease-in-out, border-color 200ms ease-in-out;
-}
-.post-content img:hover {
-  box-shadow: #efefef 0 0 10px 3px;
-  border-color: #ddd;
 }
 .post-content iframe {
   border: none;
