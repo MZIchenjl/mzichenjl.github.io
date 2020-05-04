@@ -155,6 +155,9 @@
   text-decoration: none;
   padding: 0 0.1em;
 }
+.post-content a.image-link {
+  padding: 0;
+}
 .post-content #toc {
   position: relative;
   border-bottom: 1px solid #eceff2;
