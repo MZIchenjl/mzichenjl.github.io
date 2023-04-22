@@ -39,8 +39,8 @@
 }
 #header .logo {
   text-decoration: none;
-  color: var(--theme-background);
-  background-color: var(--theme-color);
+  color: var(--theme-color);
+  background-color: var(--theme-background-hover);
   padding: 0.2em 1em;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -94,48 +94,17 @@
   border: thin dashed var(--theme-color);
   background-color: var(--theme-background);
 }
-.theme {
-  position: absolute;
-  right: 0;
-}
-.theme label {
-  width: 80px;
-  height: 24px;
-  display: block;
-  background-color: var(--theme-color);
-  border-radius: 24px;
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4), inset 0px -1px 3px rgba(255, 255, 255, 0.4);
-  cursor: pointer;
-  transition: 0.3s;
-}
-.theme label::after {
-  content: "";
-  width: 12px;
-  height: 12px;
-  position: absolute;
-  top: 6px;
-  left: 6px;
-  background: var(--theme-background);
-  border-radius: 32px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-}
-.theme input:checked + label::after {
-  top: 6px;
-  left: unset;
-  right: 6px;
-}
 .dark .vt-switch-check {
-  transform: translate(18px);
+  transform: translateX(18px);
   background-color: var(--theme-background);
 }
-.dark .vt-switch-appearance-moon {
-  opacity: 1;
-}
 .dark .vt-switch-appearance-sun {
-  opacity: 0;
+  transform: translateY(18px);
 }
-.dark .vt-switch-icon svg {
+.dark .vt-switch-appearance-moon {
+  transform: translateY(0);
+}
+.dark .vt-switch-switch-icon svg {
   fill: rgba(255, 255, 255, 0.87);
   transition: opacity 0.25s;
 }
@@ -160,11 +129,15 @@
 .vt-switch:hover {
   border-color: var(--theme-switch-border-hover);
 }
+.vt-switch-appearance-sun,
+.vt-switch-appearance-moon {
+  transition: transform 0.25s;
+}
 .vt-switch-appearance-sun {
-  opacity: 1;
+  transform: translateY(0);
 }
 .vt-switch-appearance-moon {
-  opacity: 0;
+  transform: translateY(-18px);
 }
 .vt-switch-check {
   position: absolute;

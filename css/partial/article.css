@@ -268,9 +268,9 @@
   margin: 1.5em 0;
   box-sizing: border-box;
   font-size: 1.1em;
-  background: #fcfcfc;
+  background: var(--theme-background-hover);
   font-family: "Georgia", serif;
-  color: #666;
+  color: var(--theme-color);
   border-left: 5px solid var(--theme-border-color);
   padding: 1em 1em 1em 1.5em;
 }
